@@ -1,0 +1,73 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+
+# .NET Core
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ncrunchproject
+*.vs/
+*.swagger
+*.sql
+*.backup
+
+# NuGet
+**/packages/
+*.nupkg
+.nuget/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Bb]uild/
+bld/
+[Oo]bj/
+
+# Angular
+leave-management-frontend/dist/
+leave-management-frontend/node_modules/
+leave-management-frontend/.angular/
+leave-management-frontend/.vscode/
+leave-management-frontend/coverage/
+leave-management-frontend/.env
+leave-management-frontend/.env.local
+leave-management-frontend/.env.development.local
+leave-management-frontend/.env.test.local
+leave-management-frontend/.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+# Database
+*.mdf
+*.ldf
+*.sdf
+
+# Local History for Visual Studio
+.localhistory/
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
